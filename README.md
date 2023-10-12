@@ -354,6 +354,7 @@ To optimize your browsing experience, consider integrating the [Tampermonkey ext
 
 The following Moodle customised docker images are close companions of this project:
 
+* [moodle-php-apache-xdebug](LOCALLY REBUILT USING DOCKER COMMIT moodle-php-apache-xdebug): Based on below so you don't have to keep rebuilding xDebug every boot
 * [moodle-php-apache](https://github.com/moodlehq/moodle-php-apache): Apache/PHP Environment preconfigured for all Moodle environments
 * [moodle-db-mssql](https://github.com/moodlehq/moodle-db-mssql): Microsoft SQL Server for Linux configured for Moodle
 * [moodle-db-oracle](https://github.com/moodlehq/moodle-db-oracle): Oracle XE configured for Moodle
