@@ -11,6 +11,15 @@ services:
               --innodb_file_per_table=On
               --wait-timeout=28800
               --skip-log-bin
+              --innodb_buffer_pool_size=4G
+              --innodb_log_buffer_size=256M
+              --innodb_log_file_size=1G
+              --innodb_write_io_threads=16
+              --innodb_flush_log_at_trx_commit=0
+              --query_cache_type=0
+              --query_cache_size=0
+              --slow_query_log=1
+
     environment:
       MYSQL_ROOT_PASSWORD: "m@0dl3ing"
       MYSQL_USER: moodle
